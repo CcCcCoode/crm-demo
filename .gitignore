@@ -1,0 +1,33 @@
+# 环境与密钥
+.env
+.env.local
+
+# 运行时数据（SQLite / ChromaDB / 日志 / 上传文件）
+data/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# 模型缓存
+models/
+.cache/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# Node（仅 tests/ui_smoke.js 自测用）
+tests/node_modules/
+tests/package-lock.json

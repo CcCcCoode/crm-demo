@@ -1,0 +1,13 @@
+﻿{
+  "name": "crm-ui-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SeaChatInterview 浏览器级 UI 冒烟测试（jsdom，仅开发自测依赖）",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node ui_smoke.js"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
